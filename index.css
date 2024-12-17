@@ -1,0 +1,14 @@
+h1{
+    color: red;
+}
+body{
+    background-color: aqua;
+}
+.img{
+    width: 300px;
+    height: 300px;
+}
+.img img{
+    width: 300px;
+    height: 300px;
+}
