@@ -8,6 +8,8 @@ body{
 
     max-width: 1024px;
     min-width: 1024px;
+    height: 120;
+    background-color: red;
 }
 .img{
     width: 300px;
