@@ -1,0 +1,75 @@
+/* Para pantallas pequeñas (móviles) */
+@media (max-width: 768px)  {
+    .blocContainer{
+        width: auto;
+    }
+    .imgHead {
+        float: none; /* Quitar el flotante para alinear los elementos en pila */
+    }
+
+    .imgHead img {
+        height: 100px; /* Redimensionar imágenes */
+        width: 100px;
+    }
+
+    .imgCompra {
+        float: none;
+        margin: 10px auto; /* Centrar la imagen de compra */
+
+    }
+    .bloque1 {
+        max-width: 100%; /* Hacer que el ancho ocupe toda la pantalla */
+        min-width: 0px;
+        padding: 0px;
+        height: auto; /* Permitir que la altura sea dinámica */
+    }
+    .IninsideBloque1{
+        padding: 30px;
+
+    }
+    .imgInsideBlock img{
+        margin: 0 auto;
+        height: 150px;
+        width: 150px;
+        float: left;
+    }
+    .txtInsideBlock{
+        width: 150px;
+        height: 150px;
+        float: right;
+    }
+
+
+
+}
+
+/* Para pantallas medianas (tabletas) */
+@media (width:100%)  {
+    .blocContainer {
+        max-width: 100%; /* Reducir el ancho a 90% */
+    }
+
+    .imgHead img {
+        height: 100px; /* Ajustar imágenes ligeramente */
+        width: 100px;
+    }
+
+    .bloque1 {
+        height: 400px; /* Ajustar altura para pantallas medianas */
+    }
+    .IninsideBloque1{
+        padding: 30px;
+
+    }
+}
+
+@media (max-width: 480px) {
+    /* Estilos para teléfonos pequeños */
+    .bloque1{
+        max-width: 100%;
+
+    }
+    .IninsideBloque1{
+        padding: 0px;
+    }
+}

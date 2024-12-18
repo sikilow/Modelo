@@ -1,0 +1,73 @@
+.bloque1 {
+    margin: auto;
+    padding: 0px;
+    width: auto;
+    max-width: 1024px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 80px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.insideBloque1 {
+    padding: 50px; /* Reduce el padding para pantallas pequeñas */
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
+
+.imgInsideBlock {
+    margin: 0 auto;
+    height: auto;
+    width: 50%; /* Ocupa la mitad del contenedor */
+    float: left;
+}
+
+.imgInsideBlock img {
+    margin: 0 auto;
+    height: 300px;
+    width: 300px; /* Mantiene el tamaño fijo para imágenes */
+    float: left;
+}
+
+.txtInsideBlock {
+    width: 50%; /* Ocupa la otra mitad del contenedor */
+    height: auto;
+    float: right;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .insideBloque1 {
+        padding: 30px; /* Reduce el padding en pantallas más pequeñas */
+    }
+
+    .imgInsideBlock, .txtInsideBlock {
+        width: 100%; /* Acomoda los elementos en una columna */
+        float: none;
+        text-align: center; /* Centra el texto */
+        margin-bottom: 20px; /* Espaciado entre elementos */
+    }
+
+    .imgInsideBlock img {
+        height: 200px; /* Reduce el tamaño de la imagen */
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .insideBloque1 {
+        padding: 20px; /* Menos padding para pantallas muy pequeñas */
+    }
+
+    .imgInsideBlock img {
+        height: 150px; /* Tamaño más pequeño para imágenes */
+        width: 150px;
+    }
+
+    .txtInsideBlock {
+        font-size: 14px; /* Reduce el tamaño del texto */
+    }
+}

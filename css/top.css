@@ -1,0 +1,42 @@
+.head{
+    margin: 0 auto;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    background-color: rgb(245, 120, 239);
+    overflow: hidden;
+}
+.blocConteiner{
+    max-width: 1024px;
+    min-width: 1024px;
+    margin: 0 auto;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    float: none;
+ 
+}
+.imgHead{
+    margin: 0 auto;
+    padding: 0px;
+  
+    width: auto;
+    height: auto;
+    float: left;
+}
+.imgHead img{
+    height: 100px;
+    width: 100px;
+}
+.imgCompra{
+    margin: 0 auto;
+    padding: 0px;
+
+    width: auto;
+    height: auto;
+    float: right;
+}
+.imgCompra img{
+    height: 100px;
+    width: 100px;
+}

@@ -5,128 +5,18 @@ body{
 }
 
 .conteiner{
-    margin: 0 auto;
-    padding: 0px;
-}
-.head{
-    margin: 0 auto;
-    padding: 0px;
-    width: auto;
     height: auto;
-    background-color: rgb(0, 255, 106);
+    margin: 0 auto;
+    padding: 0px;
+    background-image: url(f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
 }
-.blocConteiner{
-    max-width: 1024px;
-    min-width: 1024px;
-    margin: 0 auto;
-    padding: 0px;
-    width: auto;
-    height: auto;
-    background-color: rgb(0, 255, 106);
-    float: none;
- 
-}
-.imgHead{
-    margin: 0 auto;
-    padding: 0px;
-    background-color: rgb(217, 255, 0);
-    width: auto;
-    height: auto;
-    float: left;
-}
-.imgHead img{
-    height: 100px;
-    width: 100px;
-}
-.imgCompra{
-    margin: 0 auto;
-    padding: 0px;
-    background-color: rgb(217, 255, 0);
-    width: auto;
-    height: auto;
-    float: right;
-}
+
 .hidden{
     /*overflow: hidden;
     */
 }
-.bloque1{
-    margin: auto;
-    padding: 0px;
-    width: auto;
-    height: auto;
-    max-width: 1024px;
-    min-width: 1024px;
-    height: 500px;
-    background-color: red;
-    
-}
-.insideBloque1{
-    margin: 50px;
-    height: auto;
-    width: auto;
-  
-}
-.imgInsideBlock{
-    margin: 0 auto;
-    height: auto;
-    width: auto;
-    float: left;
-}
-.imgInsideBlock img{
-    margin: 0 auto;
-    height: 400px;
-    width: 400px;
-    float: left;
-}
-.txtInsideBlock{
-    width: auto;
-    height: auto;
-    float: right;
-}
-/* Para pantallas pequeñas (móviles) */
-@media (max-width: 768px) {
-    .blocContainer{
-        width: auto;
-    }
-    .bloque1 {
-        max-width: 100%; /* Hacer que el ancho ocupe toda la pantalla */
-        min-width: 0;
-    }
 
-    .imgHead {
-        float: none; /* Quitar el flotante para alinear los elementos en pila */
-    }
 
-    .imgHead img {
-        height: 100px; /* Redimensionar imágenes */
-        width: 100px;
-    }
-
-    .imgCompra {
-        float: none;
-        margin: 10px auto; /* Centrar la imagen de compra */
-        display: block;
-    }
-
-    .bloque1 {
-        height: auto; /* Permitir que la altura sea dinámica */
-    }
-}
-
-/* Para pantallas medianas (tabletas) */
-@media (max-width: 1024px) and (min-width: 769px) {
-    .blocContainer {
-        max-width: 100%; /* Reducir el ancho a 90% */
-    }
-
-    .imgHead img {
-        height: 100px; /* Ajustar imágenes ligeramente */
-        width: 100px;
-    }
-
-    .bloque1 {
-        height: 400px; /* Ajustar altura para pantallas medianas */
-    }
-}
