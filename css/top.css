@@ -3,18 +3,17 @@
     padding: 0;
     width: auto;
     height: auto;
-    background-color: rgb(245, 120, 239);
+    background-color: #A7DDBB;
     overflow: hidden;
 }
 
 .blocConteiner {
-    max-width: 1024px;
-    min-width: 320px; /* Permite que el contenedor se adapte a pantallas pequeñas */
     margin: 0 auto;
     padding: 0;
-    width: 100%; /* Se ajusta al ancho del contenedor padre */
+    max-width: 1024px; /* Permite que el contenedor se adapte a pantallas pequeñas */
+    width:auto; /* Se ajusta al ancho del contenedor padre */
     height: auto;
-    float: none;
+  
 }
 
 .imgHead {
@@ -51,8 +50,7 @@
     }
 
     .imgHead, .imgCompra {
-        float: none; /* Coloca los elementos uno debajo del otro */
-        text-align: center;
+      
         margin-bottom: 10px; /* Añade espacio entre las imágenes */
     }
 

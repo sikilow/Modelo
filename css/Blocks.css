@@ -1,10 +1,17 @@
+.b{
+    margin: auto;
+    padding: auto;
+    height: auto;
+    width:auto;
+    overflow: hidden;
+}
 .bloque1 {
     margin: auto;
     padding: 0px;
     width: auto;
     max-width: 1024px;
     height: auto;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     overflow: hidden;
     border-radius: 80px;
     margin-bottom: 50px;
@@ -62,6 +69,7 @@
 
 @media (max-width: 480px) {
     .insideBloque1 {
+        
         padding: 20px; /* Menos padding para pantallas muy pequeñas */
     }
     .imgInsideBlock{
@@ -74,7 +82,7 @@
     }
 
     .txtInsideBlock {
-
+        width: 340px;
         font-size: 14px; /* Reduce el tamaño del texto */
     }
 }
