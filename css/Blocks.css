@@ -20,9 +20,10 @@
 
 .imgInsideBlock {
     margin: 0 auto;
+    width: auto;
     height: auto;
-    width: 50%; /* Ocupa la mitad del contenedor */
     float: left;
+  
 }
 
 .imgInsideBlock img {
@@ -33,7 +34,7 @@
 }
 
 .txtInsideBlock {
-    width: 50%; /* Ocupa la otra mitad del contenedor */
+    width: 400px; /* Ocupa la otra mitad del contenedor */
     height: auto;
     float: right;
 }
@@ -43,11 +44,13 @@
     .insideBloque1 {
         padding: 30px; /* Reduce el padding en pantallas más pequeñas */
     }
+    .imgInsideBlock{
+        width: auto;
+        padding-left: 90px;
+    }
 
-    .imgInsideBlock, .txtInsideBlock {
-        width: 100%; /* Acomoda los elementos en una columna */
-        float: none;
-        text-align: center; /* Centra el texto */
+    .txtInsideBlock {
+        width: 360px;
         margin-bottom: 20px; /* Espaciado entre elementos */
     }
 
@@ -61,13 +64,17 @@
     .insideBloque1 {
         padding: 20px; /* Menos padding para pantallas muy pequeñas */
     }
-
+    .imgInsideBlock{
+        width: auto;
+        padding-left: 110px;
+    }
     .imgInsideBlock img {
         height: 150px; /* Tamaño más pequeño para imágenes */
         width: 150px;
     }
 
     .txtInsideBlock {
+
         font-size: 14px; /* Reduce el tamaño del texto */
     }
 }
